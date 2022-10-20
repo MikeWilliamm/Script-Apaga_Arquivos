@@ -6,7 +6,7 @@ Desenvolver um script que se conecta a um banco de dados, e por uma consulta ext
 - Python (psycopg2, os, MIMEMultipart, MIMEText, smtplib)
 - Postgres
 
-<b>Arquitetura:</b>  Primeiramente o script se conectara ao banco de dados PostgreSQL, lá ocorrerá uma consulta SQL que retornara um dataframe composto por diretórios de arquivos, em seguido, o programa ira tentar acessar e apagar esses arquivos, também nessa etapa ocorre o armazenando da quantidade que foi apagar e a quantidade que não foi possível  apagar, finalizando é enviado um e-mail informando a quantidade de arquivos apagados e quantidade de arquivos que não foi possível apagar.
+<b>Arquitetura:</b>  Primeiramente o script se conectara ao banco de dados PostgreSQL, lá ocorrerá uma consulta SQL que retornara um dataframe composto por diretórios de arquivos, em seguida, o programa ira tentar acessar e apagar esses arquivos, também nessa etapa ocorre o armazenando da quantidade que foi apagar e a quantidade que não foi possível  apagar, finalizando é enviado um e-mail informando a quantidade de arquivos apagados e quantidade de arquivos que não foi possível apagar.
 
 
 ## Resultados
